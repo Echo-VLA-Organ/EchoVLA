@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "input_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/r5_g4_rcvenv_n90.hdf5",
+  "output_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/r5_g4_rcvenv_n90_delivery_t01_n10.hdf5",
+  "target_count": 10,
+  "selected_count": 10,
+  "traj_collision_threshold": 0.1,
+  "success_only": true,
+  "strict_shortage_policy": "fail",
+  "dry_run": true,
+  "eligible_count": 58,
+  "available_non_collision_count": 29,
+  "available_collision_count": 29,
+  "allowed_collision_count": 1,
+  "selected_collision_count": 0,
+  "selected_traj_collision_rate": 0.0,
+  "metrics": {
+    "total_demos": 10,
+    "success_count": 10,
+    "success_rate": 1.0,
+    "avg_traj_len": 124.4,
+    "avg_pos_error": 0.17842421247687712,
+    "avg_yaw_error_deg": 2.0715255033414097,
+    "avg_timeout_waypoints": 0.0,
+    "collision_steps_total": 0,
+    "steps_total": 1244,
+    "collision_step_rate": 0.0,
+    "traj_collision_count": 0,
+    "traj_collision_rate": 0.0,
+    "avg_collision_steps": 0.0,
+    "layout_breakdown": {
+      "4": {
+        "count": 2,
+        "success": 2
+      },
+      "9": {
+        "count": 2,
+        "success": 2
+      },
+      "7": {
+        "count": 4,
+        "success": 4
+      },
+      "3": {
+        "count": 1,
+        "success": 1
+      },
+      "8": {
+        "count": 1,
+        "success": 1
+      }
+    },
+    "stop_reason_breakdown": {
+      "success": 10
+    },
+    "failure_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+# Echo_VLA overlay for MoMani — portable paths (see env.example).
+# Use: --base-config benchmarks/momani/config/echo_base_config.yaml
+
+project:
+  name: momani
+  task: NavigateKitchen
+  seed: 42
+
+paths:
+  # HDF5 (legacy) or RoboCasa365 LeRobot task directory
+  official_dataset_hdf5: ./benchmarks/momani/datasets/official/NavigateKitchen/demo.hdf5
+  robocasa365_lerobot_root: ${oc.env:ECHO_ROBOCASA365_DATA,./data/robocasa365-datasets}/pretrain/atomic/NavigateKitchen/20250821/lerobot
+  momani_dataset: ${oc.env:ECHO_MOMANI_DATASET,${robocasa365_lerobot_root}}
+  output_root: ./benchmarks/momani/runs
+  reports_dir: ./benchmarks/momani/reports
+  metrics_dir: ./benchmarks/momani/metrics
+  logs_dir: ./benchmarks/momani/logs
+
+dataset:
+  source_split: human_raw
+  max_source_demos: 90
+  action_dim: 12
+  state_dim: 103
+  base_action_slice: [7, 10]
+  base_mode_index: 11
+
+environment:
+  env_name: NavigateKitchen
+  robots: [PandaOmron]
+  controller: HYBRID_MOBILE_BASE
+  control_freq: 20
+  ignore_done: false
+  use_camera_obs: false
+
+success_criteria:
+  max_pos_error_m: 0.20
+  min_yaw_cos: 0.98
+
+execution:
+  sample_demos_for_baseline: 10
+  sample_demos_for_ab_test: 20
+  target_generated_demos: 100
+  max_steps_per_demo: 500
+  fixed_seed_list: [42, 43, 44, 45, 46]

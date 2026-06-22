@@ -1,0 +1,15 @@
+# @package _global_
+# MoMani NavigateKitchen benchmark — paths resolved via ECHO_MOMANI_* env vars.
+
+defaults:
+  - paths: default
+  - _self_
+
+momani_root: ${oc.env:ECHO_MOMANI_ROOT,${echo_root}/benchmarks/momani}
+momani_official_hdf5: ${oc.env:ECHO_MOMANI_OFFICIAL_HDF5,${momani_root}/datasets/official/NavigateKitchen/demo.hdf5}
+momani_base_config: ${momani_root}/config/echo_base_config.yaml
+momani_metrics_dir: ${momani_root}/metrics
+
+benchmark_name: momani
+benchmark_task: NavigateKitchen
+mode: nav

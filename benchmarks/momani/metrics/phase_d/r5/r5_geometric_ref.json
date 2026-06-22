@@ -1,0 +1,129 @@
+{
+  "total_demos": 30,
+  "success_count": 26,
+  "success_rate": 0.8666666666666667,
+  "avg_traj_len": 222.16666666666666,
+  "avg_pos_error": 0.334126134771407,
+  "avg_yaw_error_deg": 6.921632212170327,
+  "avg_timeout_waypoints": 1.7333333333333334,
+  "collision_steps_total": 3656,
+  "steps_total": 6665,
+  "collision_step_rate": 0.5485371342835709,
+  "traj_collision_count": 30,
+  "traj_collision_rate": 1.0,
+  "avg_collision_steps": 121.86666666666666,
+  "layout_breakdown": {
+    "9": {
+      "count": 3,
+      "success": 3
+    },
+    "7": {
+      "count": 4,
+      "success": 2
+    },
+    "0": {
+      "count": 5,
+      "success": 5
+    },
+    "1": {
+      "count": 4,
+      "success": 4
+    },
+    "8": {
+      "count": 3,
+      "success": 3
+    },
+    "3": {
+      "count": 3,
+      "success": 3
+    },
+    "2": {
+      "count": 1,
+      "success": 1
+    },
+    "4": {
+      "count": 1,
+      "success": 1
+    },
+    "6": {
+      "count": 3,
+      "success": 2
+    },
+    "5": {
+      "count": 3,
+      "success": 2
+    }
+  },
+  "stop_reason_breakdown": {
+    "success": 26,
+    "waypoint_timeout": 4
+  },
+  "failure_cases": [
+    {
+      "generated_demo_id": "demo_1",
+      "source_demo_id": "demo_16",
+      "layout_id": 7,
+      "style_id": 3,
+      "final_pos_error": 0.5265455456131178,
+      "final_yaw_error_deg": 0.24822178272163062,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 288,
+      "collision_step_rate": 0.7559055118110236
+    },
+    {
+      "generated_demo_id": "demo_10",
+      "source_demo_id": "demo_50",
+      "layout_id": 7,
+      "style_id": 2,
+      "final_pos_error": 2.801627812379358,
+      "final_yaw_error_deg": 178.97844150375252,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 470,
+      "collision_step_rate": 1.0
+    },
+    {
+      "generated_demo_id": "demo_15",
+      "source_demo_id": "demo_15",
+      "layout_id": 6,
+      "style_id": 5,
+      "final_pos_error": 1.7799737383246117,
+      "final_yaw_error_deg": 0.008055757578857082,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 372,
+      "collision_step_rate": 0.9007263922518159
+    },
+    {
+      "generated_demo_id": "demo_20",
+      "source_demo_id": "demo_38",
+      "layout_id": 5,
+      "style_id": 11,
+      "final_pos_error": 0.47569721270058396,
+      "final_yaw_error_deg": 0.2562030289868965,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 253,
+      "collision_step_rate": 0.640506329113924
+    }
+  ],
+  "target_count": 30,
+  "source_pool_size": 90,
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "output_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/r5_geometric_ref.hdf5",
+  "config": {
+    "waypoint_mode": "geometric",
+    "geometric_segment_m": 0.7,
+    "geometric_min_waypoints": 3,
+    "geometric_max_waypoints": 10,
+    "obstacle_grid_resolution": 0.1,
+    "obstacle_inflation_m": 0.18,
+    "obstacle_margin_m": 0.8,
+    "phase2_distance_m": 0.7,
+    "final_lock_steps": 220,
+    "runaway_window": 25,
+    "runaway_pos_threshold_m": 5.0,
+    "runaway_min_progress_m": 0.005,
+    "runaway_max_events": 1,
+    "collision_step_rate_limit": -1.0,
+    "max_steps_per_demo": 500,
+    "max_steps_per_waypoint": 50
+  }
+}

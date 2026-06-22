@@ -1,0 +1,36 @@
+{
+  "generated_dataset": {
+    "path": "/Users/candlest/dev/navgen/datasets/navgen/v1/demo.hdf5",
+    "traj_total": 100,
+    "traj_with_collision": 98,
+    "traj_collision_rate": 0.98,
+    "steps_total": 23286,
+    "collision_steps_total": 12868,
+    "step_collision_rate": 0.5526067164820063,
+    "success_subset": {
+      "n_traj": 84,
+      "traj_collision_rate": 0.9761904761904762,
+      "step_collision_rate": 0.45090821314344337,
+      "avg_collision_steps": 88.95238095238095,
+      "median_collision_steps": 43.5
+    },
+    "failure_subset": {
+      "n_traj": 16,
+      "traj_collision_rate": 1.0,
+      "step_collision_rate": 0.8035740878629933,
+      "avg_collision_steps": 337.25,
+      "median_collision_steps": 324.5
+    }
+  },
+  "official_dataset": {
+    "path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+    "traj_total": 90,
+    "traj_with_collision": 22,
+    "traj_collision_rate": 0.24444444444444444,
+    "steps_total": 15500,
+    "collision_steps_total": 147,
+    "step_collision_rate": 0.009483870967741935
+  },
+  "contact_definition": "one contact where exactly one geom name contains mobilebase0",
+  "created_at": "2026-02-08"
+}

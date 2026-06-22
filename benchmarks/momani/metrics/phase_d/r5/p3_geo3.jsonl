@@ -1,0 +1,1 @@
+{"generated_demo_id": "demo_15", "source_demo_id": "demo_15", "layout_id": 6, "style_id": 5, "final_pos_error": 1.6559085951140995, "final_yaw_error_deg": 0.010151445956269762, "stop_reason": "waypoint_timeout", "collision_steps": 369, "collision_step_rate": 0.8785714285714286}

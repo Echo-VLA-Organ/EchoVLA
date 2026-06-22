@@ -1,0 +1,261 @@
+{
+  "total_demos": 90,
+  "success_count": 74,
+  "success_rate": 0.8222222222222222,
+  "avg_traj_len": 149.96666666666667,
+  "avg_pos_error": 0.4810998835686187,
+  "avg_yaw_error_deg": 1.068393645938861,
+  "avg_timeout_waypoints": 1.0,
+  "collision_steps_total": 5182,
+  "steps_total": 13497,
+  "collision_step_rate": 0.3839371712232348,
+  "traj_collision_count": 65,
+  "traj_collision_rate": 0.7222222222222222,
+  "avg_collision_steps": 57.577777777777776,
+  "layout_breakdown": {
+    "9": {
+      "count": 7,
+      "success": 7
+    },
+    "7": {
+      "count": 14,
+      "success": 12
+    },
+    "0": {
+      "count": 10,
+      "success": 5
+    },
+    "1": {
+      "count": 5,
+      "success": 4
+    },
+    "8": {
+      "count": 15,
+      "success": 15
+    },
+    "3": {
+      "count": 12,
+      "success": 9
+    },
+    "2": {
+      "count": 5,
+      "success": 5
+    },
+    "4": {
+      "count": 9,
+      "success": 8
+    },
+    "6": {
+      "count": 7,
+      "success": 3
+    },
+    "5": {
+      "count": 6,
+      "success": 6
+    }
+  },
+  "stop_reason_breakdown": {
+    "success": 74,
+    "waypoint_timeout": 16
+  },
+  "failure_cases": [
+    {
+      "generated_demo_id": "demo_3",
+      "source_demo_id": "demo_39",
+      "layout_id": 0,
+      "style_id": 6,
+      "final_pos_error": 1.2903356064678237,
+      "final_yaw_error_deg": 2.0634553861772718,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852
+    },
+    {
+      "generated_demo_id": "demo_6",
+      "source_demo_id": "demo_28",
+      "layout_id": 7,
+      "style_id": 1,
+      "final_pos_error": 0.6992170977537261,
+      "final_yaw_error_deg": 10.197500653219128,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 202,
+      "collision_step_rate": 0.7481481481481481
+    },
+    {
+      "generated_demo_id": "demo_11",
+      "source_demo_id": "demo_24",
+      "layout_id": 4,
+      "style_id": 4,
+      "final_pos_error": 2.1193425887255297,
+      "final_yaw_error_deg": 0.46122603111939664,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 180,
+      "collision_step_rate": 0.6666666666666666
+    },
+    {
+      "generated_demo_id": "demo_15",
+      "source_demo_id": "demo_15",
+      "layout_id": 6,
+      "style_id": 5,
+      "final_pos_error": 1.8685022089074965,
+      "final_yaw_error_deg": 0.0087911494603228,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 241,
+      "collision_step_rate": 0.8925925925925926
+    },
+    {
+      "generated_demo_id": "demo_18",
+      "source_demo_id": "demo_56",
+      "layout_id": 1,
+      "style_id": 8,
+      "final_pos_error": 1.802679666632115,
+      "final_yaw_error_deg": 0.8757555352775616,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 258,
+      "collision_step_rate": 0.9555555555555556
+    },
+    {
+      "generated_demo_id": "demo_23",
+      "source_demo_id": "demo_30",
+      "layout_id": 0,
+      "style_id": 6,
+      "final_pos_error": 1.3423101150941819,
+      "final_yaw_error_deg": 2.067625258856513,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852
+    },
+    {
+      "generated_demo_id": "demo_26",
+      "source_demo_id": "demo_6",
+      "layout_id": 0,
+      "style_id": 3,
+      "final_pos_error": 1.3938698426775635,
+      "final_yaw_error_deg": 2.0715568630931482,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852
+    },
+    {
+      "generated_demo_id": "demo_36",
+      "source_demo_id": "demo_89",
+      "layout_id": 6,
+      "style_id": 1,
+      "final_pos_error": 2.328193032727863,
+      "final_yaw_error_deg": 3.2729460609015106,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 204,
+      "collision_step_rate": 0.7555555555555555
+    },
+    {
+      "generated_demo_id": "demo_40",
+      "source_demo_id": "demo_88",
+      "layout_id": 3,
+      "style_id": 3,
+      "final_pos_error": 2.2100933183361646,
+      "final_yaw_error_deg": 0.01742169095998804,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 206,
+      "collision_step_rate": 0.762962962962963
+    },
+    {
+      "generated_demo_id": "demo_43",
+      "source_demo_id": "demo_3",
+      "layout_id": 6,
+      "style_id": 7,
+      "final_pos_error": 3.776798491738198,
+      "final_yaw_error_deg": 0.008100790560878172,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 214,
+      "collision_step_rate": 0.7925925925925926
+    },
+    {
+      "generated_demo_id": "demo_52",
+      "source_demo_id": "demo_62",
+      "layout_id": 0,
+      "style_id": 8,
+      "final_pos_error": 1.36448527141457,
+      "final_yaw_error_deg": 2.0155798542652086,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 185,
+      "collision_step_rate": 0.6851851851851852
+    },
+    {
+      "generated_demo_id": "demo_56",
+      "source_demo_id": "demo_44",
+      "layout_id": 6,
+      "style_id": 5,
+      "final_pos_error": 2.8504214938500327,
+      "final_yaw_error_deg": 1.1563317624344263,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852
+    },
+    {
+      "generated_demo_id": "demo_73",
+      "source_demo_id": "demo_18",
+      "layout_id": 3,
+      "style_id": 0,
+      "final_pos_error": 1.3077668096905526,
+      "final_yaw_error_deg": 1.78633193620702,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 246,
+      "collision_step_rate": 0.9111111111111111
+    },
+    {
+      "generated_demo_id": "demo_83",
+      "source_demo_id": "demo_25",
+      "layout_id": 3,
+      "style_id": 11,
+      "final_pos_error": 2.866488936714466,
+      "final_yaw_error_deg": 0.012207544208705415,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 210,
+      "collision_step_rate": 0.7777777777777778
+    },
+    {
+      "generated_demo_id": "demo_84",
+      "source_demo_id": "demo_9",
+      "layout_id": 0,
+      "style_id": 0,
+      "final_pos_error": 1.3626970177970583,
+      "final_yaw_error_deg": 2.0695179583554975,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852
+    },
+    {
+      "generated_demo_id": "demo_89",
+      "source_demo_id": "demo_20",
+      "layout_id": 7,
+      "style_id": 11,
+      "final_pos_error": 2.0078272286954224,
+      "final_yaw_error_deg": 0.4932448175212492,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 256,
+      "collision_step_rate": 0.9481481481481482
+    }
+  ],
+  "target_count": 90,
+  "source_pool_size": 90,
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "output_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/r5_g4_n90.hdf5",
+  "config": {
+    "waypoint_mode": "obstacle_aware",
+    "geometric_segment_m": 0.7,
+    "geometric_min_waypoints": 3,
+    "geometric_max_waypoints": 10,
+    "obstacle_grid_resolution": 0.1,
+    "obstacle_inflation_m": 0.26,
+    "obstacle_margin_m": 1.0,
+    "phase2_distance_m": 0.7,
+    "final_lock_steps": 220,
+    "runaway_window": 25,
+    "runaway_pos_threshold_m": 5.0,
+    "runaway_min_progress_m": 0.005,
+    "runaway_max_events": 1,
+    "collision_step_rate_limit": -1.0,
+    "max_steps_per_demo": 500,
+    "max_steps_per_waypoint": 50
+  }
+}

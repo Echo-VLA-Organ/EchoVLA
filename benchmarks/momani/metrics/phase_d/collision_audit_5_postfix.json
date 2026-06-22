@@ -1,0 +1,186 @@
+{
+  "dataset_path": "/Users/candlest/dev/navgen/datasets/navgen/v1/demo_5_postfix.hdf5",
+  "source_scene_dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "mobile_prefix": "mobilebase0",
+  "summary": {
+    "traj_total": 5,
+    "traj_with_collision": 5,
+    "traj_collision_rate": 1.0,
+    "steps_total": 1222,
+    "collision_steps_total": 645,
+    "step_collision_rate": 0.527823240589198,
+    "top_collision_geoms": [
+      [
+        "stack_4_main_group_1_left_door_trim_left",
+        396
+      ],
+      [
+        "stack_3_main_group_1_right_door_trim_right",
+        382
+      ],
+      [
+        "island_panel_cab_right_island_group_1_body",
+        358
+      ],
+      [
+        "island_panel_cab_right_island_group_base_g0",
+        356
+      ],
+      [
+        "stack_4_main_group_1_left_door_trim_bottom",
+        320
+      ],
+      [
+        "bottom_main_group_1_door_trim_right",
+        286
+      ],
+      [
+        "bottom_main_group_2_door_trim_right",
+        284
+      ],
+      [
+        "stack_3_main_group_1_right_door_trim_bottom",
+        266
+      ],
+      [
+        "stack_3_main_group_1_left_door_handle_handle",
+        164
+      ],
+      [
+        "stack_3_main_group_1_left_door_handle_handle_connector_bottom",
+        132
+      ],
+      [
+        "stack_2_main_group_1_door_trim_left",
+        116
+      ],
+      [
+        "stack_3_main_group_1_right_door_handle_handle",
+        108
+      ],
+      [
+        "bottom_main_group_1_top",
+        80
+      ],
+      [
+        "bottom_main_group_1_bottom",
+        80
+      ],
+      [
+        "bottom_main_group_1_right",
+        80
+      ],
+      [
+        "bottom_main_group_2_bottom",
+        80
+      ],
+      [
+        "bottom_main_group_2_right",
+        80
+      ],
+      [
+        "stack_4_main_group_1_right_door_handle_handle",
+        67
+      ],
+      [
+        "island_panel_cab_right_island_group_1_door_door",
+        59
+      ],
+      [
+        "stack_3_main_group_1_right_door_handle_handle_connector_bottom",
+        58
+      ],
+      [
+        "stack_4_main_group_1_left_door_handle_handle",
+        56
+      ],
+      [
+        "stack_3_main_group_1_right_door_door",
+        34
+      ],
+      [
+        "stack_2_main_group_2_door_handle_handle",
+        26
+      ],
+      [
+        "stack_2_main_group_1_door_handle_handle",
+        25
+      ],
+      [
+        "stove_left_group_g6",
+        18
+      ],
+      [
+        "counter_1_front_group_base_front",
+        17
+      ],
+      [
+        "stack_4_main_group_1_right_door_handle_handle_connector_bottom",
+        16
+      ],
+      [
+        "stack_5_main_group_1_right_door_trim_bottom",
+        14
+      ],
+      [
+        "stack_5_main_group_1_left_door_trim_bottom",
+        14
+      ],
+      [
+        "stack_4_main_group_1_right_door_trim_bottom",
+        14
+      ]
+    ],
+    "success_subset": {
+      "n_traj": 5,
+      "step_collision_rate": 0.527823240589198
+    }
+  },
+  "per_demo": [
+    {
+      "demo_id": "demo_0",
+      "source_demo_id": "demo_71",
+      "traj_len": 153,
+      "collision_steps": 23,
+      "collision_step_rate": 0.1503267973856209,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_1",
+      "source_demo_id": "demo_55",
+      "traj_len": 301,
+      "collision_steps": 132,
+      "collision_step_rate": 0.43853820598006643,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_2",
+      "source_demo_id": "demo_89",
+      "traj_len": 388,
+      "collision_steps": 211,
+      "collision_step_rate": 0.5438144329896907,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_3",
+      "source_demo_id": "demo_2",
+      "traj_len": 243,
+      "collision_steps": 194,
+      "collision_step_rate": 0.7983539094650206,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_4",
+      "source_demo_id": "demo_27",
+      "traj_len": 137,
+      "collision_steps": 85,
+      "collision_step_rate": 0.6204379562043796,
+      "has_collision": true,
+      "success": true
+    }
+  ]
+}

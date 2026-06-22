@@ -1,0 +1,25 @@
+runtime:
+  name: momani-cross-platform-runtime
+  python_major_minor: "3.10"
+  supported_platforms: [linux, darwin]
+
+packages:
+  numpy: 1.23.2
+  mujoco: 3.2.6
+  robosuite: 1.5.2
+  robocasa: 0.2.0
+  h5py: 3.15.1
+  PyYAML: 6.0.3
+  lxml: 6.0.2
+
+sources:
+  robocasa:
+    package: robocasa
+    git_url: https://github.com/robocasa/robocasa
+    git_ref: 756598a5be52e052339bb2d957426e39015c2afb
+    allow_local_editable: true
+  robosuite:
+    package: robosuite
+    git_url: https://github.com/ARISE-Initiative/robosuite
+    git_ref: e94119512f737635111ae651768c17ad1be72859
+    allow_local_editable: true

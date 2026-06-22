@@ -1,0 +1,91 @@
+{
+  "input_files": [
+    "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s0.json",
+    "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s10.json",
+    "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s20.json",
+    "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s30.json"
+  ],
+  "summary": {
+    "n_runs": 4,
+    "n_trials": 40,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "max_steps_hit_rate": 0.825,
+    "avg_final_pos_error": 2.455665746985292,
+    "avg_final_yaw_error_deg": 11.309751541727604,
+    "avg_generated_traj_len": 484.35,
+    "avg_reached_waypoints": 3.9,
+    "avg_timeout_waypoints": 8.6,
+    "failure_type_counts": {
+      "pos_and_yaw_not_converged": 13,
+      "pos_not_converged": 27
+    }
+  },
+  "runs": [
+    {
+      "file": "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s0.json",
+      "summary": {
+        "n_trials": 10,
+        "success_count": 0,
+        "success_rate": 0.0,
+        "avg_final_pos_error": 2.6895983071243146,
+        "avg_final_yaw_error_deg": 10.328956876493802,
+        "avg_generated_traj_len": 483.2,
+        "avg_traj_len_ratio": 3.2999101102057837,
+        "avg_reached_waypoints": 3.8,
+        "avg_timeout_waypoints": 8.5
+      }
+    },
+    {
+      "file": "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s10.json",
+      "summary": {
+        "n_trials": 10,
+        "success_count": 0,
+        "success_rate": 0.0,
+        "avg_final_pos_error": 1.491039030208584,
+        "avg_final_yaw_error_deg": 10.773154243853151,
+        "avg_generated_traj_len": 495.3,
+        "avg_traj_len_ratio": 3.1075345530897187,
+        "avg_reached_waypoints": 4.6,
+        "avg_timeout_waypoints": 8.6
+      }
+    },
+    {
+      "file": "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s20.json",
+      "summary": {
+        "n_trials": 10,
+        "success_count": 0,
+        "success_rate": 0.0,
+        "avg_final_pos_error": 2.6171839425997847,
+        "avg_final_yaw_error_deg": 13.578723375501076,
+        "avg_generated_traj_len": 483.2,
+        "avg_traj_len_ratio": 3.330512963447613,
+        "avg_reached_waypoints": 4.1,
+        "avg_timeout_waypoints": 8.7
+      }
+    },
+    {
+      "file": "/Users/candlest/dev/navgen/metrics/phase_b/closed_loop_eval_10_s30.json",
+      "summary": {
+        "n_trials": 10,
+        "success_count": 0,
+        "success_rate": 0.0,
+        "avg_final_pos_error": 3.0248417080084833,
+        "avg_final_yaw_error_deg": 10.55817167106239,
+        "avg_generated_traj_len": 475.7,
+        "avg_traj_len_ratio": 3.265723812960617,
+        "avg_reached_waypoints": 3.1,
+        "avg_timeout_waypoints": 8.6
+      }
+    }
+  ],
+  "recommendations": [
+    "\u5148\u964d\u4f4e\u4efb\u52a1\u96be\u5ea6\uff1a\u4ec5\u6d4b\u8bd5\u524d 5 \u4e2a waypoint\uff0c\u786e\u8ba4\u5355\u6bb5\u95ed\u73af\u80fd\u7a33\u5b9a\u6536\u655b",
+    "\u51cf\u5c11 waypoint \u6570\u91cf\uff1a\u5c06 step_interval \u4ece 10 \u63d0\u5230 20\uff0c\u4f18\u5148\u9a8c\u8bc1\u7ec8\u70b9\u6536\u655b",
+    "\u63d0\u5347\u6bcf\u6b65\u63a8\u8fdb\u80fd\u529b\uff1asmoothing.alpha \u4ece 0.30 \u964d\u5230 0.15\uff0c\u51cf\u5c0f\u52a8\u4f5c\u8fdf\u6ede",
+    "\u653e\u5bbd waypoint \u5230\u8fbe\u9608\u503c\uff1areached_threshold_m \u4ece 0.15 \u653e\u5bbd\u5230 0.22",
+    "\u6682\u65f6\u964d\u4f4e\u95e8\u63a7\u4fdd\u5b88\u6027\uff1aori_priority_threshold_deg \u4ece 17 \u63d0\u5230 25",
+    "\u4f4d\u7f6e\u6536\u655b\u662f\u4e3b\u74f6\u9888\uff1a\u5148\u52a0\u5927\u5e73\u79fb\u63a8\u8fdb\uff08vx_max 0.8->1.0, vy_max 0.6->0.8\uff09",
+    "\u51cf\u901f\u89e6\u53d1\u66f4\u665a\uff1adeceleration.distance_threshold_m \u4ece 0.50 \u964d\u5230 0.25"
+  ]
+}

@@ -1,0 +1,48 @@
+phase: B
+goal: closed_loop_mvp
+
+waypoint:
+  mode: geometric_to_target
+  step_interval: 20
+  min_interval: 10
+  max_interval: 25
+  geometric_segment_m: 0.7
+  geometric_min_waypoints: 3
+  geometric_max_waypoints: 10
+
+controller:
+  strategy: target_pose_feedback
+  use_mg_navigate_interface: true
+  use_mg_target_to_action: false
+  base_action_order: [1, 0, 2]
+  base_action_sign: [1.0, 1.0, 1.0]
+  base_mode_value: 1.0
+  reached_threshold_m: 0.19
+  reached_yaw_deg: 11.0
+  max_steps_per_waypoint: 50
+  timeout_action: skip_to_next_waypoint
+
+limits:
+  clip_action: [-1.0, 1.0]
+  vx_max: 0.80
+  vy_max: 0.60
+  wz_max: 1.20
+
+collision_gate:
+  collision_step_rate_limit: -1.0
+
+logging:
+  save_step_level_trace: false
+  fields:
+    - demo_id
+    - step
+    - waypoint_idx
+    - pos_error
+    - yaw_error_deg
+    - action_base
+    - is_success
+
+acceptance:
+  eval_demos: 20
+  min_success_rate: 0.75
+  max_mean_traj_len_ratio: 1.60

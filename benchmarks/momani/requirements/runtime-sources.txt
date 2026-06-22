@@ -1,0 +1,2 @@
+-e git+https://github.com/ARISE-Initiative/robosuite@e94119512f737635111ae651768c17ad1be72859#egg=robosuite
+-e git+https://github.com/robocasa/robocasa@756598a5be52e052339bb2d957426e39015c2afb#egg=robocasa

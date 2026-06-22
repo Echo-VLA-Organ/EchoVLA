@@ -1,0 +1,53 @@
+{
+  "total_demos": 5,
+  "success_count": 5,
+  "success_rate": 1.0,
+  "avg_traj_len": 244.4,
+  "avg_pos_error": 0.1653568192195702,
+  "avg_yaw_error_deg": 1.1854371133056272,
+  "avg_timeout_waypoints": 2.2,
+  "layout_breakdown": {
+    "7": {
+      "count": 1,
+      "success": 1
+    },
+    "1": {
+      "count": 1,
+      "success": 1
+    },
+    "6": {
+      "count": 1,
+      "success": 1
+    },
+    "8": {
+      "count": 1,
+      "success": 1
+    },
+    "4": {
+      "count": 1,
+      "success": 1
+    }
+  },
+  "stop_reason_breakdown": {
+    "success": 5
+  },
+  "failure_cases": [],
+  "target_count": 5,
+  "source_pool_size": 90,
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "output_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/demo_5_postfix.hdf5",
+  "config": {
+    "waypoint_mode": "geometric",
+    "geometric_segment_m": 0.7,
+    "geometric_min_waypoints": 3,
+    "geometric_max_waypoints": 10,
+    "phase2_distance_m": 0.7,
+    "final_lock_steps": 220,
+    "runaway_window": 25,
+    "runaway_pos_threshold_m": 5.0,
+    "runaway_min_progress_m": 0.005,
+    "runaway_max_events": 1,
+    "max_steps_per_demo": 500,
+    "max_steps_per_waypoint": 50
+  }
+}

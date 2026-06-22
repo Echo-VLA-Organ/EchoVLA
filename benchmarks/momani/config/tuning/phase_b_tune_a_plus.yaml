@@ -1,0 +1,26 @@
+phase: B
+goal: closed_loop_tune_a_plus
+
+waypoint:
+  mode: sampled_from_source_states
+  step_interval: 20
+  min_interval: 10
+  max_interval: 25
+
+controller:
+  strategy: target_pose_feedback
+  use_mg_navigate_interface: true
+  base_mode_value: 1.0
+  reached_threshold_m: 0.20
+  reached_yaw_deg: 13.0
+  max_steps_per_waypoint: 60
+  timeout_action: skip_to_next_waypoint
+
+limits:
+  clip_action: [-1.0, 1.0]
+  vx_max: 1.00
+  vy_max: 0.80
+  wz_max: 1.40
+
+logging:
+  save_step_level_trace: false

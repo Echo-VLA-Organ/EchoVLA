@@ -1,0 +1,955 @@
+{
+  "dataset_path": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/r5_g4_n90.hdf5",
+  "source_scene_dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "mobile_prefix": "mobilebase0",
+  "summary": {
+    "traj_total": 90,
+    "traj_with_collision": 65,
+    "traj_collision_rate": 0.7222222222222222,
+    "steps_total": 13497,
+    "collision_steps_total": 5187,
+    "step_collision_rate": 0.38430762391642587,
+    "top_collision_geoms": [
+      [
+        "island_left_group_base_back",
+        1312
+      ],
+      [
+        "dishwasher_island_group_g2",
+        1096
+      ],
+      [
+        "stove_main_group_g6",
+        1043
+      ],
+      [
+        "stove_main_group_g4",
+        946
+      ],
+      [
+        "island_stack_1_island_group_1_left_door_trim_right",
+        786
+      ],
+      [
+        "island_panel_cab_left_island_group_1_door_door",
+        712
+      ],
+      [
+        "stack_2_main_group_1_left_door_trim_bottom",
+        656
+      ],
+      [
+        "island_stack_1_island_group_1_left_door_door_raised",
+        534
+      ],
+      [
+        "island_stack_1_island_group_1_left_door_trim_bottom",
+        534
+      ],
+      [
+        "island_panel_cab_right_island_group_1_door_door",
+        464
+      ],
+      [
+        "stove_main_group_g2",
+        460
+      ],
+      [
+        "stack_2_main_group_1_left_door_handle_handle",
+        412
+      ],
+      [
+        "fridge_housing_left_group_right",
+        386
+      ],
+      [
+        "fridge_left_group_g3",
+        378
+      ],
+      [
+        "stack_2_main_group_1_left_door_trim_left",
+        368
+      ],
+      [
+        "stack_2_main_group_1_right_door_handle_handle",
+        332
+      ],
+      [
+        "dishwasher_island_group_g1",
+        323
+      ],
+      [
+        "fridge_left_group_g2",
+        321
+      ],
+      [
+        "stack_2_main_group_1_right_door_trim_bottom",
+        276
+      ],
+      [
+        "island_stack_1_island_group_1_right_door_trim_bottom",
+        264
+      ],
+      [
+        "stack_2_main_group_1_left_door_trim_right",
+        260
+      ],
+      [
+        "bottom_main_group_1_door_handle_handle",
+        258
+      ],
+      [
+        "stack_3_main_group_1_right_door_handle_handle",
+        251
+      ],
+      [
+        "stack_1_main_group_1_door_handle_handle",
+        250
+      ],
+      [
+        "stack_1_main_group_2_door_handle_handle",
+        250
+      ],
+      [
+        "stack_2_main_group_1_left_door_door_raised",
+        242
+      ],
+      [
+        "stack_2_main_group_1_right_door_trim_left",
+        238
+      ],
+      [
+        "stove_right_group_g2",
+        206
+      ],
+      [
+        "stack_3_main_group_1_left_door_handle_handle",
+        205
+      ],
+      [
+        "island_stack_1_island_group_1_right_door_door_raised",
+        196
+      ]
+    ],
+    "success_subset": {
+      "n_traj": 74,
+      "step_collision_rate": 0.18688024408848208
+    },
+    "failure_subset": {
+      "n_traj": 16,
+      "step_collision_rate": 0.8037037037037037
+    }
+  },
+  "per_demo": [
+    {
+      "demo_id": "demo_0",
+      "source_demo_id": "demo_42",
+      "traj_len": 192,
+      "collision_steps": 59,
+      "collision_step_rate": 0.3072916666666667,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_1",
+      "source_demo_id": "demo_16",
+      "traj_len": 166,
+      "collision_steps": 85,
+      "collision_step_rate": 0.5120481927710844,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_2",
+      "source_demo_id": "demo_59",
+      "traj_len": 157,
+      "collision_steps": 19,
+      "collision_step_rate": 0.12101910828025478,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_3",
+      "source_demo_id": "demo_39",
+      "traj_len": 270,
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_4",
+      "source_demo_id": "demo_12",
+      "traj_len": 97,
+      "collision_steps": 39,
+      "collision_step_rate": 0.4020618556701031,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_5",
+      "source_demo_id": "demo_21",
+      "traj_len": 139,
+      "collision_steps": 53,
+      "collision_step_rate": 0.381294964028777,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_6",
+      "source_demo_id": "demo_28",
+      "traj_len": 270,
+      "collision_steps": 206,
+      "collision_step_rate": 0.762962962962963,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_7",
+      "source_demo_id": "demo_37",
+      "traj_len": 103,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_8",
+      "source_demo_id": "demo_34",
+      "traj_len": 114,
+      "collision_steps": 40,
+      "collision_step_rate": 0.3508771929824561,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_9",
+      "source_demo_id": "demo_51",
+      "traj_len": 99,
+      "collision_steps": 26,
+      "collision_step_rate": 0.26262626262626265,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_10",
+      "source_demo_id": "demo_50",
+      "traj_len": 123,
+      "collision_steps": 2,
+      "collision_step_rate": 0.016260162601626018,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_11",
+      "source_demo_id": "demo_24",
+      "traj_len": 270,
+      "collision_steps": 188,
+      "collision_step_rate": 0.6962962962962963,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_12",
+      "source_demo_id": "demo_75",
+      "traj_len": 77,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_13",
+      "source_demo_id": "demo_53",
+      "traj_len": 93,
+      "collision_steps": 39,
+      "collision_step_rate": 0.41935483870967744,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_14",
+      "source_demo_id": "demo_83",
+      "traj_len": 163,
+      "collision_steps": 55,
+      "collision_step_rate": 0.3374233128834356,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_15",
+      "source_demo_id": "demo_15",
+      "traj_len": 270,
+      "collision_steps": 242,
+      "collision_step_rate": 0.8962962962962963,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_16",
+      "source_demo_id": "demo_77",
+      "traj_len": 155,
+      "collision_steps": 49,
+      "collision_step_rate": 0.3161290322580645,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_17",
+      "source_demo_id": "demo_10",
+      "traj_len": 164,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_18",
+      "source_demo_id": "demo_56",
+      "traj_len": 270,
+      "collision_steps": 258,
+      "collision_step_rate": 0.9555555555555556,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_19",
+      "source_demo_id": "demo_17",
+      "traj_len": 137,
+      "collision_steps": 58,
+      "collision_step_rate": 0.4233576642335766,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_20",
+      "source_demo_id": "demo_38",
+      "traj_len": 107,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_21",
+      "source_demo_id": "demo_60",
+      "traj_len": 133,
+      "collision_steps": 4,
+      "collision_step_rate": 0.03007518796992481,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_22",
+      "source_demo_id": "demo_7",
+      "traj_len": 159,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_23",
+      "source_demo_id": "demo_30",
+      "traj_len": 270,
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_24",
+      "source_demo_id": "demo_65",
+      "traj_len": 77,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_25",
+      "source_demo_id": "demo_11",
+      "traj_len": 99,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_26",
+      "source_demo_id": "demo_6",
+      "traj_len": 270,
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_27",
+      "source_demo_id": "demo_32",
+      "traj_len": 70,
+      "collision_steps": 10,
+      "collision_step_rate": 0.14285714285714285,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_28",
+      "source_demo_id": "demo_33",
+      "traj_len": 157,
+      "collision_steps": 49,
+      "collision_step_rate": 0.31210191082802546,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_29",
+      "source_demo_id": "demo_49",
+      "traj_len": 105,
+      "collision_steps": 28,
+      "collision_step_rate": 0.26666666666666666,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_30",
+      "source_demo_id": "demo_69",
+      "traj_len": 167,
+      "collision_steps": 29,
+      "collision_step_rate": 0.17365269461077845,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_31",
+      "source_demo_id": "demo_55",
+      "traj_len": 153,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_32",
+      "source_demo_id": "demo_13",
+      "traj_len": 100,
+      "collision_steps": 10,
+      "collision_step_rate": 0.1,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_33",
+      "source_demo_id": "demo_73",
+      "traj_len": 110,
+      "collision_steps": 15,
+      "collision_step_rate": 0.13636363636363635,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_34",
+      "source_demo_id": "demo_0",
+      "traj_len": 155,
+      "collision_steps": 50,
+      "collision_step_rate": 0.3225806451612903,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_35",
+      "source_demo_id": "demo_54",
+      "traj_len": 80,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_36",
+      "source_demo_id": "demo_89",
+      "traj_len": 270,
+      "collision_steps": 202,
+      "collision_step_rate": 0.7481481481481481,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_37",
+      "source_demo_id": "demo_35",
+      "traj_len": 74,
+      "collision_steps": 27,
+      "collision_step_rate": 0.36486486486486486,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_38",
+      "source_demo_id": "demo_43",
+      "traj_len": 112,
+      "collision_steps": 21,
+      "collision_step_rate": 0.1875,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_39",
+      "source_demo_id": "demo_71",
+      "traj_len": 123,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_40",
+      "source_demo_id": "demo_88",
+      "traj_len": 270,
+      "collision_steps": 207,
+      "collision_step_rate": 0.7666666666666667,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_41",
+      "source_demo_id": "demo_22",
+      "traj_len": 89,
+      "collision_steps": 3,
+      "collision_step_rate": 0.033707865168539325,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_42",
+      "source_demo_id": "demo_27",
+      "traj_len": 90,
+      "collision_steps": 24,
+      "collision_step_rate": 0.26666666666666666,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_43",
+      "source_demo_id": "demo_3",
+      "traj_len": 270,
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_44",
+      "source_demo_id": "demo_81",
+      "traj_len": 167,
+      "collision_steps": 35,
+      "collision_step_rate": 0.20958083832335328,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_45",
+      "source_demo_id": "demo_63",
+      "traj_len": 104,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_46",
+      "source_demo_id": "demo_78",
+      "traj_len": 100,
+      "collision_steps": 25,
+      "collision_step_rate": 0.25,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_47",
+      "source_demo_id": "demo_1",
+      "traj_len": 139,
+      "collision_steps": 26,
+      "collision_step_rate": 0.18705035971223022,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_48",
+      "source_demo_id": "demo_70",
+      "traj_len": 113,
+      "collision_steps": 18,
+      "collision_step_rate": 0.1592920353982301,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_49",
+      "source_demo_id": "demo_79",
+      "traj_len": 100,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_50",
+      "source_demo_id": "demo_5",
+      "traj_len": 106,
+      "collision_steps": 25,
+      "collision_step_rate": 0.2358490566037736,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_51",
+      "source_demo_id": "demo_72",
+      "traj_len": 104,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_52",
+      "source_demo_id": "demo_62",
+      "traj_len": 270,
+      "collision_steps": 185,
+      "collision_step_rate": 0.6851851851851852,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_53",
+      "source_demo_id": "demo_4",
+      "traj_len": 71,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_54",
+      "source_demo_id": "demo_64",
+      "traj_len": 145,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_55",
+      "source_demo_id": "demo_86",
+      "traj_len": 145,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_56",
+      "source_demo_id": "demo_44",
+      "traj_len": 270,
+      "collision_steps": 211,
+      "collision_step_rate": 0.7814814814814814,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_57",
+      "source_demo_id": "demo_8",
+      "traj_len": 126,
+      "collision_steps": 6,
+      "collision_step_rate": 0.047619047619047616,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_58",
+      "source_demo_id": "demo_2",
+      "traj_len": 71,
+      "collision_steps": 7,
+      "collision_step_rate": 0.09859154929577464,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_59",
+      "source_demo_id": "demo_45",
+      "traj_len": 220,
+      "collision_steps": 109,
+      "collision_step_rate": 0.4954545454545455,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_60",
+      "source_demo_id": "demo_26",
+      "traj_len": 76,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_61",
+      "source_demo_id": "demo_87",
+      "traj_len": 131,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_62",
+      "source_demo_id": "demo_41",
+      "traj_len": 117,
+      "collision_steps": 47,
+      "collision_step_rate": 0.4017094017094017,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_63",
+      "source_demo_id": "demo_14",
+      "traj_len": 89,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_64",
+      "source_demo_id": "demo_23",
+      "traj_len": 143,
+      "collision_steps": 27,
+      "collision_step_rate": 0.1888111888111888,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_65",
+      "source_demo_id": "demo_84",
+      "traj_len": 113,
+      "collision_steps": 45,
+      "collision_step_rate": 0.39823008849557523,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_66",
+      "source_demo_id": "demo_82",
+      "traj_len": 126,
+      "collision_steps": 6,
+      "collision_step_rate": 0.047619047619047616,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_67",
+      "source_demo_id": "demo_36",
+      "traj_len": 87,
+      "collision_steps": 9,
+      "collision_step_rate": 0.10344827586206896,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_68",
+      "source_demo_id": "demo_52",
+      "traj_len": 132,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_69",
+      "source_demo_id": "demo_80",
+      "traj_len": 71,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_70",
+      "source_demo_id": "demo_58",
+      "traj_len": 130,
+      "collision_steps": 53,
+      "collision_step_rate": 0.4076923076923077,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_71",
+      "source_demo_id": "demo_76",
+      "traj_len": 191,
+      "collision_steps": 88,
+      "collision_step_rate": 0.4607329842931937,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_72",
+      "source_demo_id": "demo_61",
+      "traj_len": 144,
+      "collision_steps": 25,
+      "collision_step_rate": 0.1736111111111111,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_73",
+      "source_demo_id": "demo_18",
+      "traj_len": 270,
+      "collision_steps": 247,
+      "collision_step_rate": 0.9148148148148149,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_74",
+      "source_demo_id": "demo_67",
+      "traj_len": 153,
+      "collision_steps": 17,
+      "collision_step_rate": 0.1111111111111111,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_75",
+      "source_demo_id": "demo_85",
+      "traj_len": 172,
+      "collision_steps": 67,
+      "collision_step_rate": 0.38953488372093026,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_76",
+      "source_demo_id": "demo_19",
+      "traj_len": 121,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_77",
+      "source_demo_id": "demo_66",
+      "traj_len": 113,
+      "collision_steps": 77,
+      "collision_step_rate": 0.6814159292035398,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_78",
+      "source_demo_id": "demo_47",
+      "traj_len": 106,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_79",
+      "source_demo_id": "demo_46",
+      "traj_len": 173,
+      "collision_steps": 68,
+      "collision_step_rate": 0.3930635838150289,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_80",
+      "source_demo_id": "demo_31",
+      "traj_len": 121,
+      "collision_steps": 18,
+      "collision_step_rate": 0.1487603305785124,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_81",
+      "source_demo_id": "demo_48",
+      "traj_len": 176,
+      "collision_steps": 69,
+      "collision_step_rate": 0.39204545454545453,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_82",
+      "source_demo_id": "demo_68",
+      "traj_len": 124,
+      "collision_steps": 19,
+      "collision_step_rate": 0.1532258064516129,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_83",
+      "source_demo_id": "demo_25",
+      "traj_len": 270,
+      "collision_steps": 210,
+      "collision_step_rate": 0.7777777777777778,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_84",
+      "source_demo_id": "demo_9",
+      "traj_len": 270,
+      "collision_steps": 212,
+      "collision_step_rate": 0.7851851851851852,
+      "has_collision": true,
+      "success": false
+    },
+    {
+      "demo_id": "demo_85",
+      "source_demo_id": "demo_74",
+      "traj_len": 107,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_86",
+      "source_demo_id": "demo_29",
+      "traj_len": 167,
+      "collision_steps": 28,
+      "collision_step_rate": 0.16766467065868262,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_87",
+      "source_demo_id": "demo_57",
+      "traj_len": 125,
+      "collision_steps": 7,
+      "collision_step_rate": 0.056,
+      "has_collision": true,
+      "success": true
+    },
+    {
+      "demo_id": "demo_88",
+      "source_demo_id": "demo_40",
+      "traj_len": 119,
+      "collision_steps": 0,
+      "collision_step_rate": 0.0,
+      "has_collision": false,
+      "success": true
+    },
+    {
+      "demo_id": "demo_89",
+      "source_demo_id": "demo_20",
+      "traj_len": 270,
+      "collision_steps": 256,
+      "collision_step_rate": 0.9481481481481482,
+      "has_collision": true,
+      "success": false
+    }
+  ]
+}

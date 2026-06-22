@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.deps/
+.tmp/
+logs/
+datasets/**/*.hdf5
+benchmarks/momani/.venv/
+benchmarks/momani/.deps/
+benchmarks/momani/logs/
+benchmarks/momani/datasets/
+benchmarks/momani/runs/
+.DS_Store

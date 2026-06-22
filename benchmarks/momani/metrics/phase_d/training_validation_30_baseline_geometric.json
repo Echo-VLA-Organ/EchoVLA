@@ -1,0 +1,55 @@
+{
+  "dataset_path": "/Users/candlest/dev/navgen/datasets/navgen/v1/demo_30_baseline_geometric.hdf5",
+  "total_demos": 30,
+  "success_count": 26,
+  "success_rate": 0.8666666666666667,
+  "traj_len_stats": {
+    "min": 120.0,
+    "max": 500.0,
+    "mean": 238.8,
+    "median": 180.0
+  },
+  "state_dims": {
+    "111": 6,
+    "115": 4,
+    "127": 3,
+    "125": 4,
+    "97": 1,
+    "133": 3,
+    "135": 2,
+    "165": 1,
+    "103": 1,
+    "101": 3,
+    "137": 1,
+    "81": 1
+  },
+  "action_dims": {
+    "12": 30
+  },
+  "empty_traj_count": 0,
+  "nan_count": 0,
+  "inf_count": 0,
+  "action_oob_count": 0,
+  "action_range": {
+    "min": -1.0,
+    "max": 1.0
+  },
+  "layout_coverage": {
+    "7": 5,
+    "1": 1,
+    "5": 4,
+    "9": 3,
+    "4": 4,
+    "3": 4,
+    "8": 6,
+    "6": 1,
+    "2": 1,
+    "0": 1
+  },
+  "stop_reason_breakdown": {
+    "success": 26,
+    "waypoint_timeout": 3,
+    "max_steps": 1
+  },
+  "pass": true
+}

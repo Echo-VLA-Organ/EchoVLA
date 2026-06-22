@@ -1,0 +1,14 @@
+{
+  "status": "insufficient",
+  "error": "insufficient non-collision samples for threshold: need_non_collision>=40, have_non_collision=29, threshold=0.0, target=40",
+  "target_count": 40,
+  "traj_collision_threshold": 0.0,
+  "success_only": true,
+  "strict_shortage_policy": "fail",
+  "raw_total_count": 90,
+  "eligible_count": 58,
+  "eligible_non_collision_count": 29,
+  "allowed_collision_count": 0,
+  "min_non_collision_needed": 40,
+  "recommended_raw_count": 125
+}

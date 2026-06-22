@@ -1,0 +1,44 @@
+{
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "selected_demos": [
+    "demo_0"
+  ],
+  "config": {
+    "max_steps_per_demo": 500,
+    "max_steps_per_waypoint": 35,
+    "step_interval": 25,
+    "use_mg_interface": true,
+    "save_step_trace": false
+  },
+  "summary": {
+    "n_trials": 1,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "avg_final_pos_error": 2.9365218597281437,
+    "avg_final_yaw_error_deg": 2.6861294532269526,
+    "avg_generated_traj_len": 220.0,
+    "avg_traj_len_ratio": 1.2571428571428571,
+    "avg_reached_waypoints": 2.0,
+    "avg_timeout_waypoints": 6.0
+  },
+  "results": [
+    {
+      "demo_id": "demo_0",
+      "success": false,
+      "stop_reason": "max_steps_or_timeout",
+      "layout_id": 2,
+      "style_id": 4,
+      "src_fixture": "dishwasher_main_group",
+      "target_fixture": "shelves_right_group",
+      "lang": "navigate to the shelves",
+      "source_traj_len": 175,
+      "generated_traj_len": 220,
+      "traj_len_ratio": 1.2571428571428571,
+      "n_waypoints": 8,
+      "reached_waypoints": 2,
+      "timeout_waypoints": 6,
+      "final_pos_error": 2.9365218597281437,
+      "final_yaw_error_deg": 2.6861294532269526
+    }
+  ]
+}

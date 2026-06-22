@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.deps/
+
+# Local outputs
+logs/
+
+# Generated datasets / binaries
+datasets/**/*.hdf5
+*.zip

@@ -1,0 +1,24 @@
+phase: C
+goal: stabilize_and_recover_tune_c
+
+error_gate:
+  enabled: true
+  ori_priority_threshold_deg: 28.0
+  pos_priority_threshold_m: 0.70
+  yaw_only_linear_scale: 0.15
+  pos_mode_yaw_scale: 0.25
+
+velocity_limit:
+  enabled: true
+  vx_max: 1.00
+  vy_max: 0.80
+  wz_max: 1.50
+
+smoothing:
+  enabled: true
+  alpha: 0.05
+
+deceleration:
+  enabled: false
+  distance_threshold_m: 0.20
+  min_speed_ratio: 0.30

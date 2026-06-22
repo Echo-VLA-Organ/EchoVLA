@@ -1,0 +1,294 @@
+{
+  "total_demos": 60,
+  "success_count": 42,
+  "success_rate": 0.7,
+  "avg_traj_len": 225.26666666666668,
+  "avg_pos_error": 0.47814591351050034,
+  "avg_yaw_error_deg": 0.78350737095121,
+  "avg_timeout_waypoints": 1.0,
+  "collision_steps_total": 3240,
+  "steps_total": 13516,
+  "collision_step_rate": 0.23971589227582124,
+  "traj_collision_count": 42,
+  "traj_collision_rate": 0.7,
+  "avg_collision_steps": 54.0,
+  "layout_breakdown": {
+    "9": {
+      "count": 4,
+      "success": 4
+    },
+    "7": {
+      "count": 9,
+      "success": 8
+    },
+    "0": {
+      "count": 6,
+      "success": 2
+    },
+    "1": {
+      "count": 5,
+      "success": 2
+    },
+    "8": {
+      "count": 8,
+      "success": 6
+    },
+    "3": {
+      "count": 6,
+      "success": 4
+    },
+    "2": {
+      "count": 3,
+      "success": 3
+    },
+    "4": {
+      "count": 8,
+      "success": 6
+    },
+    "6": {
+      "count": 7,
+      "success": 3
+    },
+    "5": {
+      "count": 4,
+      "success": 4
+    }
+  },
+  "stop_reason_breakdown": {
+    "success": 42,
+    "waypoint_timeout": 18
+  },
+  "failure_cases": [
+    {
+      "generated_demo_id": "demo_3",
+      "source_demo_id": "demo_39",
+      "layout_id": 0,
+      "style_id": 6,
+      "final_pos_error": 0.20913711393743947,
+      "final_yaw_error_deg": 0.0008421460807606808,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 101,
+      "collision_step_rate": 0.37407407407407406
+    },
+    {
+      "generated_demo_id": "demo_4",
+      "source_demo_id": "demo_12",
+      "layout_id": 1,
+      "style_id": 8,
+      "final_pos_error": 0.20922262702208463,
+      "final_yaw_error_deg": 0.0015478945838115475,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 188,
+      "collision_step_rate": 0.6962962962962963
+    },
+    {
+      "generated_demo_id": "demo_5",
+      "source_demo_id": "demo_21",
+      "layout_id": 8,
+      "style_id": 7,
+      "final_pos_error": 0.21093558322634567,
+      "final_yaw_error_deg": 0.001972601847010117,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 153,
+      "collision_step_rate": 0.5666666666666667
+    },
+    {
+      "generated_demo_id": "demo_11",
+      "source_demo_id": "demo_24",
+      "layout_id": 4,
+      "style_id": 4,
+      "final_pos_error": 2.132684825380824,
+      "final_yaw_error_deg": 0.7914930066519158,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 168,
+      "collision_step_rate": 0.6222222222222222
+    },
+    {
+      "generated_demo_id": "demo_14",
+      "source_demo_id": "demo_83",
+      "layout_id": 1,
+      "style_id": 2,
+      "final_pos_error": 0.25854943703040767,
+      "final_yaw_error_deg": 0.002967249249690698,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 132,
+      "collision_step_rate": 0.4888888888888889
+    },
+    {
+      "generated_demo_id": "demo_15",
+      "source_demo_id": "demo_15",
+      "layout_id": 6,
+      "style_id": 5,
+      "final_pos_error": 2.1044609324456545,
+      "final_yaw_error_deg": 2.5584069634603934,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 249,
+      "collision_step_rate": 0.9222222222222223
+    },
+    {
+      "generated_demo_id": "demo_16",
+      "source_demo_id": "demo_77",
+      "layout_id": 6,
+      "style_id": 7,
+      "final_pos_error": 0.6568035910796385,
+      "final_yaw_error_deg": 0.02358754054464088,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 172,
+      "collision_step_rate": 0.6370370370370371
+    },
+    {
+      "generated_demo_id": "demo_18",
+      "source_demo_id": "demo_56",
+      "layout_id": 1,
+      "style_id": 8,
+      "final_pos_error": 1.811446270082384,
+      "final_yaw_error_deg": 1.5568881298776855,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 259,
+      "collision_step_rate": 0.9592592592592593
+    },
+    {
+      "generated_demo_id": "demo_23",
+      "source_demo_id": "demo_30",
+      "layout_id": 0,
+      "style_id": 6,
+      "final_pos_error": 1.3396027170386224,
+      "final_yaw_error_deg": 3.000757109735785,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 188,
+      "collision_step_rate": 0.6962962962962963
+    },
+    {
+      "generated_demo_id": "demo_26",
+      "source_demo_id": "demo_6",
+      "layout_id": 0,
+      "style_id": 3,
+      "final_pos_error": 0.7192636267479616,
+      "final_yaw_error_deg": 1.1161127618065356,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 139,
+      "collision_step_rate": 0.5148148148148148
+    },
+    {
+      "generated_demo_id": "demo_39",
+      "source_demo_id": "demo_71",
+      "layout_id": 7,
+      "style_id": 6,
+      "final_pos_error": 0.20278646678350107,
+      "final_yaw_error_deg": 0.03192430258222004,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 52,
+      "collision_step_rate": 0.1925925925925926
+    },
+    {
+      "generated_demo_id": "demo_40",
+      "source_demo_id": "demo_88",
+      "layout_id": 3,
+      "style_id": 3,
+      "final_pos_error": 2.37107359929858,
+      "final_yaw_error_deg": 0.015728008948709234,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 192,
+      "collision_step_rate": 0.7111111111111111
+    },
+    {
+      "generated_demo_id": "demo_43",
+      "source_demo_id": "demo_3",
+      "layout_id": 6,
+      "style_id": 7,
+      "final_pos_error": 3.876327644458348,
+      "final_yaw_error_deg": 6.197935747339868,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 209,
+      "collision_step_rate": 0.774074074074074
+    },
+    {
+      "generated_demo_id": "demo_44",
+      "source_demo_id": "demo_81",
+      "layout_id": 4,
+      "style_id": 7,
+      "final_pos_error": 0.20829780623047023,
+      "final_yaw_error_deg": 0.047523482175141976,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 80,
+      "collision_step_rate": 0.2962962962962963
+    },
+    {
+      "generated_demo_id": "demo_47",
+      "source_demo_id": "demo_1",
+      "layout_id": 3,
+      "style_id": 7,
+      "final_pos_error": 0.20360411009343785,
+      "final_yaw_error_deg": 0.018612000039216477,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 28,
+      "collision_step_rate": 0.1037037037037037
+    },
+    {
+      "generated_demo_id": "demo_52",
+      "source_demo_id": "demo_62",
+      "layout_id": 0,
+      "style_id": 8,
+      "final_pos_error": 1.169724723732481,
+      "final_yaw_error_deg": 2.5449311936512027,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 147,
+      "collision_step_rate": 0.5444444444444444
+    },
+    {
+      "generated_demo_id": "demo_56",
+      "source_demo_id": "demo_44",
+      "layout_id": 6,
+      "style_id": 5,
+      "final_pos_error": 2.895992045307867,
+      "final_yaw_error_deg": 1.5415285161239685,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 195,
+      "collision_step_rate": 0.7222222222222222
+    },
+    {
+      "generated_demo_id": "demo_59",
+      "source_demo_id": "demo_45",
+      "layout_id": 8,
+      "style_id": 2,
+      "final_pos_error": 0.20759864778353565,
+      "final_yaw_error_deg": 0.0027179942177610176,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 86,
+      "collision_step_rate": 0.31851851851851853
+    }
+  ],
+  "target_count": 60,
+  "source_pool_size": 90,
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "output_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/r5_g4_geomap_top2c_rcvenv_n60.hdf5",
+  "config": {
+    "waypoint_mode": "obstacle_aware",
+    "geometric_segment_m": 0.7,
+    "geometric_min_waypoints": 3,
+    "geometric_max_waypoints": 10,
+    "obstacle_grid_resolution": 0.1,
+    "obstacle_inflation_m": 0.26,
+    "obstacle_margin_m": 1.0,
+    "semantic_handle_extra_inflation": 0.0,
+    "semantic_heavy_extra_inflation": 0.0,
+    "geom_extra_inflation_json": "/Users/candlest/dev/navgen/config/tuning/r5_geom_extra_inflation_top2_conservative.json",
+    "geom_extra_inflation_count": 2,
+    "phase2_distance_m": 0.7,
+    "final_lock_steps": 220,
+    "runaway_window": 25,
+    "runaway_pos_threshold_m": 5.0,
+    "runaway_min_progress_m": 0.005,
+    "runaway_max_events": 1,
+    "collision_response_mode": "none",
+    "collision_trigger_steps": 2,
+    "collision_slowdown_scale": 0.6,
+    "collision_slowdown_steps": 8,
+    "collision_replan_backoff_m": 0.2,
+    "collision_replan_to_final": false,
+    "collision_max_triggers": 1,
+    "collision_step_rate_limit": -1.0,
+    "max_steps_per_demo": 500,
+    "max_steps_per_waypoint": 50
+  }
+}

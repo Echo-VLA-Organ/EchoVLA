@@ -1,0 +1,41 @@
+phase: C
+goal: stabilize_and_recover
+
+error_gate:
+  enabled: true
+  ori_priority_threshold_deg: 17.0
+  pos_priority_threshold_m: 0.50
+  yaw_only_linear_scale: 0.0
+  pos_mode_yaw_scale: 0.10
+
+velocity_limit:
+  enabled: true
+  vx_max: 0.80
+  vy_max: 0.60
+  wz_max: 1.20
+
+smoothing:
+  enabled: true
+  alpha: 0.30
+
+deceleration:
+  enabled: true
+  distance_threshold_m: 0.50
+  min_speed_ratio: 0.20
+
+recovery:
+  waypoint_timeout_steps: 50
+  on_timeout: reduce_interval_and_retry
+  retry_max: 2
+  fallback_interval: 5
+
+param_sweep:
+  waypoint_step: [5, 10, 15, 20]
+  ori_threshold_deg: [12.0, 17.0, 25.0]
+  decel_distance_m: [0.3, 0.5, 0.7]
+  smoothing_alpha: [0.2, 0.3, 0.5]
+  trials_per_setting: 20
+
+acceptance:
+  min_success_rate: 0.70
+  max_layout_bucket_gap: 0.10

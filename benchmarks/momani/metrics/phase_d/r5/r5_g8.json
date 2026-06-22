@@ -1,0 +1,151 @@
+{
+  "total_demos": 30,
+  "success_count": 24,
+  "success_rate": 0.8,
+  "avg_traj_len": 161.06666666666666,
+  "avg_pos_error": 0.427382357689449,
+  "avg_yaw_error_deg": 0.9581442092949158,
+  "avg_timeout_waypoints": 1.0,
+  "collision_steps_total": 2085,
+  "steps_total": 4832,
+  "collision_step_rate": 0.43149834437086093,
+  "traj_collision_count": 23,
+  "traj_collision_rate": 0.7666666666666667,
+  "avg_collision_steps": 69.5,
+  "layout_breakdown": {
+    "9": {
+      "count": 3,
+      "success": 3
+    },
+    "7": {
+      "count": 4,
+      "success": 3
+    },
+    "0": {
+      "count": 5,
+      "success": 2
+    },
+    "1": {
+      "count": 4,
+      "success": 3
+    },
+    "8": {
+      "count": 3,
+      "success": 3
+    },
+    "3": {
+      "count": 3,
+      "success": 3
+    },
+    "2": {
+      "count": 1,
+      "success": 1
+    },
+    "4": {
+      "count": 1,
+      "success": 0
+    },
+    "6": {
+      "count": 3,
+      "success": 3
+    },
+    "5": {
+      "count": 3,
+      "success": 3
+    }
+  },
+  "stop_reason_breakdown": {
+    "success": 24,
+    "waypoint_timeout": 6
+  },
+  "failure_cases": [
+    {
+      "generated_demo_id": "demo_3",
+      "source_demo_id": "demo_39",
+      "layout_id": 0,
+      "style_id": 6,
+      "final_pos_error": 1.1850183453798333,
+      "final_yaw_error_deg": 2.0966903031230055,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 252,
+      "collision_step_rate": 0.8129032258064516
+    },
+    {
+      "generated_demo_id": "demo_6",
+      "source_demo_id": "demo_28",
+      "layout_id": 7,
+      "style_id": 1,
+      "final_pos_error": 0.699938555085692,
+      "final_yaw_error_deg": 9.856784619731286,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 242,
+      "collision_step_rate": 0.7806451612903226
+    },
+    {
+      "generated_demo_id": "demo_11",
+      "source_demo_id": "demo_24",
+      "layout_id": 4,
+      "style_id": 4,
+      "final_pos_error": 2.1113289106210176,
+      "final_yaw_error_deg": 0.48185804312950603,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 202,
+      "collision_step_rate": 0.6516129032258065
+    },
+    {
+      "generated_demo_id": "demo_18",
+      "source_demo_id": "demo_56",
+      "layout_id": 1,
+      "style_id": 8,
+      "final_pos_error": 1.7975701340637458,
+      "final_yaw_error_deg": 0.8991234287048413,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 298,
+      "collision_step_rate": 0.9612903225806452
+    },
+    {
+      "generated_demo_id": "demo_23",
+      "source_demo_id": "demo_30",
+      "layout_id": 0,
+      "style_id": 6,
+      "final_pos_error": 1.3421838404436477,
+      "final_yaw_error_deg": 2.1108544539851377,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 252,
+      "collision_step_rate": 0.8129032258064516
+    },
+    {
+      "generated_demo_id": "demo_26",
+      "source_demo_id": "demo_6",
+      "layout_id": 0,
+      "style_id": 3,
+      "final_pos_error": 1.3937471546636035,
+      "final_yaw_error_deg": 2.113796736935225,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 252,
+      "collision_step_rate": 0.8129032258064516
+    }
+  ],
+  "target_count": 30,
+  "source_pool_size": 90,
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "output_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/r5_g8.hdf5",
+  "config": {
+    "waypoint_mode": "obstacle_aware",
+    "geometric_segment_m": 0.7,
+    "geometric_min_waypoints": 3,
+    "geometric_max_waypoints": 10,
+    "obstacle_grid_resolution": 0.1,
+    "obstacle_inflation_m": 0.26,
+    "obstacle_margin_m": 1.0,
+    "phase2_distance_m": 0.7,
+    "final_lock_steps": 260,
+    "runaway_window": 25,
+    "runaway_pos_threshold_m": 5.0,
+    "runaway_min_progress_m": 0.005,
+    "runaway_max_events": 1,
+    "collision_step_rate_limit": -1.0,
+    "max_steps_per_demo": 500,
+    "max_steps_per_waypoint": 50
+  }
+}

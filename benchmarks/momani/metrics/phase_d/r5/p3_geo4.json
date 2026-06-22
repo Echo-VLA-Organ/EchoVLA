@@ -1,0 +1,127 @@
+{
+  "total_demos": 30,
+  "success_count": 27,
+  "success_rate": 0.9,
+  "avg_traj_len": 207.33333333333334,
+  "avg_pos_error": 0.34878115235347057,
+  "avg_yaw_error_deg": 7.095202098036826,
+  "avg_timeout_waypoints": 1.7,
+  "collision_steps_total": 3322,
+  "steps_total": 6220,
+  "collision_step_rate": 0.5340836012861736,
+  "traj_collision_count": 30,
+  "traj_collision_rate": 1.0,
+  "avg_collision_steps": 110.73333333333333,
+  "layout_breakdown": {
+    "9": {
+      "count": 3,
+      "success": 3
+    },
+    "7": {
+      "count": 4,
+      "success": 3
+    },
+    "0": {
+      "count": 5,
+      "success": 5
+    },
+    "1": {
+      "count": 4,
+      "success": 3
+    },
+    "8": {
+      "count": 3,
+      "success": 3
+    },
+    "3": {
+      "count": 3,
+      "success": 3
+    },
+    "2": {
+      "count": 1,
+      "success": 1
+    },
+    "4": {
+      "count": 1,
+      "success": 1
+    },
+    "6": {
+      "count": 3,
+      "success": 2
+    },
+    "5": {
+      "count": 3,
+      "success": 3
+    }
+  },
+  "stop_reason_breakdown": {
+    "success": 27,
+    "waypoint_timeout": 3
+  },
+  "failure_cases": [
+    {
+      "generated_demo_id": "demo_8",
+      "source_demo_id": "demo_34",
+      "layout_id": 1,
+      "style_id": 0,
+      "final_pos_error": 1.2157274282688604,
+      "final_yaw_error_deg": 1.520839911473734,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 295,
+      "collision_step_rate": 0.8939393939393939
+    },
+    {
+      "generated_demo_id": "demo_10",
+      "source_demo_id": "demo_50",
+      "layout_id": 7,
+      "style_id": 2,
+      "final_pos_error": 2.80159671401186,
+      "final_yaw_error_deg": 179.0278854501312,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 430,
+      "collision_step_rate": 1.0
+    },
+    {
+      "generated_demo_id": "demo_15",
+      "source_demo_id": "demo_15",
+      "layout_id": 6,
+      "style_id": 5,
+      "final_pos_error": 1.832957209946903,
+      "final_yaw_error_deg": 0.009610427722580545,
+      "stop_reason": "waypoint_timeout",
+      "collision_steps": 327,
+      "collision_step_rate": 0.8605263157894737
+    }
+  ],
+  "target_count": 30,
+  "source_pool_size": 90,
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "output_hdf5": "/Users/candlest/dev/navgen/datasets/navgen/v1/r5/p3_geo4.hdf5",
+  "config": {
+    "waypoint_mode": "geometric",
+    "geometric_segment_m": 0.7,
+    "geometric_min_waypoints": 3,
+    "geometric_max_waypoints": 10,
+    "obstacle_grid_resolution": 0.1,
+    "obstacle_inflation_m": 0.18,
+    "obstacle_margin_m": 0.8,
+    "semantic_handle_extra_inflation": 0.0,
+    "semantic_heavy_extra_inflation": 0.0,
+    "phase2_distance_m": 0.7,
+    "final_lock_steps": 180,
+    "runaway_window": 25,
+    "runaway_pos_threshold_m": 5.0,
+    "runaway_min_progress_m": 0.005,
+    "runaway_max_events": 1,
+    "collision_response_mode": "none",
+    "collision_trigger_steps": 2,
+    "collision_slowdown_scale": 0.6,
+    "collision_slowdown_steps": 8,
+    "collision_replan_backoff_m": 0.2,
+    "collision_replan_to_final": false,
+    "collision_max_triggers": 1,
+    "collision_step_rate_limit": -1.0,
+    "max_steps_per_demo": 500,
+    "max_steps_per_waypoint": 50
+  }
+}

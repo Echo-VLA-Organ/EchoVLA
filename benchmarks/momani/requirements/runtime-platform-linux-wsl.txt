@@ -1,0 +1,2 @@
+# Linux / WSL specific additions for simulation runtime.
+# Keep empty unless platform-specific pinning is required.

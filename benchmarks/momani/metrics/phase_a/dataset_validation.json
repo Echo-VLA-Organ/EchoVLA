@@ -1,0 +1,111 @@
+{
+  "dataset_path": "/Users/candlest/dev/robocasa/datasets/v0.1/single_stage/kitchen_navigate/NavigateKitchen/2024-05-09/demo.hdf5",
+  "summary": {
+    "num_demos": 90,
+    "traj_len": {
+      "min": 79,
+      "max": 322,
+      "mean": 172.22222222222223,
+      "median": 176
+    },
+    "top_keys": [
+      "data",
+      "mask"
+    ],
+    "has_data_group": true,
+    "has_mask_group": true,
+    "state_dims": {
+      "103": 5,
+      "97": 5,
+      "133": 8,
+      "161": 3,
+      "127": 7,
+      "81": 10,
+      "111": 18,
+      "115": 6,
+      "163": 2,
+      "101": 6,
+      "125": 9,
+      "165": 2,
+      "99": 1,
+      "137": 5,
+      "135": 2,
+      "107": 1
+    },
+    "action_dims": {
+      "12": 90
+    },
+    "action_range": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "base_action_range": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "base_mode_values": {
+      "-1.000": 54,
+      "1.000": 15446
+    },
+    "non_binary_base_mode_values": {}
+  },
+  "distribution": {
+    "layout_id": {
+      "2": 5,
+      "3": 12,
+      "8": 15,
+      "6": 7,
+      "9": 7,
+      "0": 10,
+      "7": 14,
+      "5": 6,
+      "1": 5,
+      "4": 9
+    },
+    "style_id": {
+      "4": 9,
+      "7": 13,
+      "2": 13,
+      "8": 9,
+      "3": 9,
+      "0": 7,
+      "5": 7,
+      "6": 8,
+      "1": 4,
+      "11": 11
+    },
+    "fixture_pairs_top20": {
+      "microwave_right_group -> coffee_machine_right_group": 2,
+      "cab_2_main_group -> cab_3_main_group": 2,
+      "stovetop_main_group -> dishwasher_left_group": 2,
+      "cab_1_left_group -> stovetop_main_group": 2,
+      "dishwasher_main_group -> shelves_right_group": 1,
+      "stack_1_main_group_2 -> oven_left_group": 1,
+      "stack_4_main_group_1 -> toaster_main_group": 1,
+      "cab_main_main_group -> microwave_left_group": 1,
+      "stack_4_main_group_2 -> stove_main_group": 1,
+      "cab_2_left_group -> fridge_right_group": 1,
+      "stack_2_left_group_2 -> dishwasher_right_group": 1,
+      "stack_2_main_group_1 -> cab_3_main_group": 1,
+      "stack_1_right_group_1 -> fridge_left_group": 1,
+      "fridge_right_group -> dishwasher_main_group": 1,
+      "stack_3_main_group_1 -> sink_island_group": 1,
+      "stack_1_main_group_3 -> shelves_right_group": 1,
+      "stack_right_left_group_1 -> microwave_front_group": 1,
+      "island_stack_1_island_group_1 -> toaster_right_group": 1,
+      "coffee_machine_left_group -> toaster_main_group": 1,
+      "hood_main_group -> toaster_right_group": 1
+    }
+  },
+  "expectation": {
+    "expect_action_dim": 12,
+    "expect_state_dim": -1,
+    "base_action_slice": [
+      7,
+      10
+    ],
+    "base_mode_index": 11
+  },
+  "issues": [],
+  "pass": true
+}
